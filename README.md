@@ -17,3 +17,6 @@
 ### Team Project
 - Description
 - Links
+
+## Education
+-university stuff
