@@ -3,7 +3,7 @@
 ## Projects
 
 ### C++ Graphics Project
-
+![Scene Gif](docs/assets/MLH_Graphics_HalfTide.gif)
 - [Demo Video](https://www.youtube.com/watch?v=77X5xG5DIFI)
 - Description
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphics)
