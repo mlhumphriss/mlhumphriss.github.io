@@ -3,10 +3,12 @@
 ## Projects
 
 ### C++ Graphics Project
+- [Demo Video](https://www.youtube.com/watch?v=77X5xG5DIFI)
 - Description
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphics)
 
 ### C++ Physics and Ai Project
+- [Demo Video](https://www.youtube.com/watch?v=DAe-hkx5NWY)
 - Description
 - [Github Repository](https://github.com/mlhumphriss/CSC8503-NetworkCodebase)
 
