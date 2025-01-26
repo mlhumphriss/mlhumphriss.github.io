@@ -3,6 +3,7 @@
 ## Projects
 
 ### C++ Graphics Project
+
 - [Demo Video](https://www.youtube.com/watch?v=77X5xG5DIFI)
 - Description
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphics)
