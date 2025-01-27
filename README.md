@@ -12,7 +12,7 @@
 - [Demo Video](https://www.youtube.com/watch?v=DAe-hkx5NWY)
 - Description
 #### OBB to OBB collisions
-![OBB Gif](docs/assets/OBBCubesRocking.gif)
+![OBBGif](docs/assets/OBBCubesRocking.gif)
 - Deep Dive
 - [Github Repository](https://github.com/mlhumphriss/CSC8503-NetworkCodebase)
 
