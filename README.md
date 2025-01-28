@@ -4,7 +4,7 @@
 
 ### C++ Graphics Project
 ![Scene Gif](docs/assets/MLH_Graphics_HalfTide.gif)
-{% include youtube.html id="77X5xG5DIFI" %}
+{% include GraphicsYoutube.html id="77X5xG5DIFI" %}
 [![Michael Humphriss CSC8502 Graphics](docs/assets/graphicsThumbnail.png)](https://www.youtube.com/watch?v=77X5xG5DIFI)
 - [Demo Video](https://www.youtube.com/watch?v=77X5xG5DIFI)
 - Description
