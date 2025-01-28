@@ -3,9 +3,9 @@
 ## Projects
 
 ### C++ Graphics Project
-![Scene Gif](docs/assets/MLH_Graphics_HalfTide.gif)
 {% include GraphicsYoutube.html id="77X5xG5DIFI" %}
 - Description
+![Scene Gif](docs/assets/MLH_Graphics_HalfTide.gif)
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphics)
 
 ### C++ Physics and Ai Project
