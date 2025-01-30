@@ -25,6 +25,13 @@
 - Description of what I worked on
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
+### C++ Conway's Game of Life
+
+- As an introduction to C++ I was tasked with creating Conway's Game of Life with features allowing me to search seeds of an inputted size for certain patterns.
+- Though it could find 4 of the 6 required patterns, it was made in 4 days while I was recovering from an illness so was inefficient and had several functions that could be easily improved
+- If I was making this again with the knowledge and experience I now have, I would change a chunk of it such as the cellState function which used too many comparisons to work out the alive neighbor cells.
+- [Github Repository of Codebase](https://github.com/mlhumphriss/ConwayGameOfLifeAssignment1/blob/master/main.cpp)
+
 
 
 ## Unity Projects
