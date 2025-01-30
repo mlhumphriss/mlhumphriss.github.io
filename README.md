@@ -1,6 +1,6 @@
 # Portfolio
 
-## Projects
+## C++ Projects
 
 ### C++ Graphics Project
 {% include GraphicsYoutube.html id="77X5xG5DIFI" %}
@@ -27,5 +27,8 @@
 
 
 
-## Education
--university stuff
+## Unity Projects
+
+### Dissertation on creating an Adaptable and Efficient Autonomous Parking Syste,
+
+### Stage 3 Games Coursework
