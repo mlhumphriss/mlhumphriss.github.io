@@ -18,7 +18,7 @@
 - This method wasn't a perfect solution as after a collision, the cubes take a while to settle with them rocking on the corners
 - Another issue during development was that if the objects were significantly different sizes (e.g. floor and a box) it would fling them apart
 - Upon further testing I realised this occurred only when the floor was the position of Object A, so added a check that would swap any object with tag floor to Object B before the function
-- Though fixing the issue inside the function would have been more ideal, I was under time constraint and had to use the time elsewhere
+- Though fixing the issue inside the function would have been more ideal as would make the physics more consistent, I was under time constraint so settled on this method to fix it
 - [Function Code can be seen here](https://gist.github.com/mlhumphriss/8d80fcba81a2cb78762e527afbab33c9)
 
 ### Unreal Group Gamejam - Explosive Unboxing
