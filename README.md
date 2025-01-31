@@ -4,8 +4,13 @@
 
 ### C++ Graphics Project
 {% include GraphicsYoutube.html id="77X5xG5DIFI" %}
-- Description
+- This project was made with OpenGL used to allow it to render.
+- It features real-time shadows using a shadow buffer, a shader effect which uses distance to fade into a white fog to help provide scene depth. Objects in the scene are also stored in a scene graph for more efficient rendering.
+- To try and imitate realistic water physics, a sin wave is used to move the water plane and boats in a bobbing motion. This imitation is effective when looking at a small section, but is a lot less effective when you can see a large chunk of the scene.
 ![Scene Gif](docs/assets/MLH_Graphics_HalfTide.gif)
+- A problem I had during this project was shadow acne. In order for shadows to cover the full scene from the light, I had moved it further away into the void of the edge of heightmap. Unfortunately I had forgotten to change the near plane of the projection matrix of shadow scene drawer so had an issue with depth buffer causing acne.
+- Upon realising that I hadn't changed the near plane distance, I increased it and solved the problem instantly.
+- If I was to revisit this project, I would try and fix the post processing as had a bug where it would render one colour across whole screen as well as adjust the water to not be as reflective
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphicDemo)
 
 ### C++ Physics and Ai Project
