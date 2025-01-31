@@ -35,6 +35,7 @@
 - This game was built on the theme of "Shot In The Dark" in roughly 10 days of part-time work, with our teams take on it being that it would be a game of random and educated guesses to not select a case with a bomb in it, with safe cases providing clues.
 - The area I worked on was the player character and their inputs as well as making it possible to select certain objects in the game using the mouse, and have the system know an object has been selected.
 - This was done with a mixture of c++ for the class, camera turn controls and event triggers, then a blueprint and actor components for the selection system.
+![SelectBlueprint](docs/assets/selectBlueprint.png)
 ![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
