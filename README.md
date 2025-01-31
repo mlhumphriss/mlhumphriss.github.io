@@ -22,8 +22,9 @@
 - [Function Code can be seen here](https://gist.github.com/mlhumphriss/8d80fcba81a2cb78762e527afbab33c9)
 
 ### Unreal Group Gamejam - Explosive Unboxing
-![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
+{% include GraphicsYoutube.html id="jw4zNAWN2P8" %}
 - Description of what I worked on
+![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
 ### C++ Conway's Game of Life
