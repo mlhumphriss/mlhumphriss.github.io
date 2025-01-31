@@ -15,7 +15,11 @@
 
 ### C++ Physics and Ai Project
 {% include GraphicsYoutube.html id="DAe-hkx5NWY" %}
-- Description
+- This project was made using CMake and explored the creation of collision detection and resolution methods as well as creating state machine AI for a game.
+- There is a state machine enemy in the maze which moves towards the player when they are in the maze, but run directly towards a player when in line of sight. This uses raycasts towards the player, and if it hits them first it'll change to chase mode.
+- One slight issue with the game in general is that the physics calculations with all the objects in is taking too long and causing time outs. This results in causing the floating staircase to vibrate due to the physics calculations not being accurate enough for movement to dampen.
+- If I was to come back to this I would probably add a physics object management system so that if an object is on a floor with no forces applied to it other than gravity, the system collision detection would assume the previous collision resolution are consistent until it moves or has an external force applied,
+- This should then reduce the wasted processing time and hopefully allow the game to run more efficiently.
 - [Github Repository](https://github.com/mlhumphriss/CSC8503-NetworkCodebase)
 #### OBB to OBB collisions using Separating Axis Theorem
 ![OBBGif](docs/assets/OBBCubesRocking.gif)
