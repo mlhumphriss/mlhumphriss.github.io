@@ -1,7 +1,7 @@
 # Portfolio
 
 ## C++ Projects
-
+- I started C++ programming in my final year of university and hve gathered experience from using it in a variety of courseworks and GameJams.
 ### C++ Graphics Project
 {% include GraphicsYoutube.html id="77X5xG5DIFI" %}
 - This project was made with OpenGL used to allow it to render.
@@ -30,9 +30,11 @@
 - Though fixing the issue inside the function would have been more ideal as would make the physics more consistent, I was under time constraint so settled on this method to fix it
 - [Function Code can be seen here](https://gist.github.com/mlhumphriss/8d80fcba81a2cb78762e527afbab33c9)
 
-### Unreal Group Gamejam - Explosive Unboxing
+### Unreal Group GameJam - Explosive Unboxing
 {% include GraphicsYoutube.html id="jw4zNAWN2P8" %}
-- Description of what I worked on
+- This game was built on the theme of "Shot In The Dark" in roughly 10 days of part-time work, with our teams take on it being that it would be a game of random and educated guesses to not select a case with a bomb in it, with safe cases providing clues.
+- The area I worked on was the player character and their inputs as well as making it possible to select certain objects in the game using the mouse, and have the system know an object has been selected.
+- This was done with a mixture of c++ for the class, camera turn controls and event triggers, then a blueprint and actor components for the selection system.
 ![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
@@ -46,8 +48,14 @@
 
 
 ## Unity Projects
-
-### Dissertation on creating an Adaptable and Efficient Autonomous Parking Syste,
+- I have experience with using Unity as it is the engine I started working with as an undergrad.
+### Dissertation on creating an Adaptable and Efficient Autonomous Parking System
+![CarParking](docs/assets/DisertationGif1.gif)
+- My dissertation used Unity in order to model an autonomous parking system
+- I added the sensors and autonomous parking system to an existing model and car controller
+- It used raycasts of set lengths as sensors, then a basic state machine which would drive towards the target and use the sensors and the weighted values to determine steering corrections or to stop to prevent collision.
+- One fault of my system was that I didn't give it an option to reverse, which meant that if it had a wrong angle of approach, it couldn't readjust to make it into the space.
+- If I was to rework it I would add the additional functionality of a reverse gear to allow the model to be able to achieve a hjigher success rate of parking at tighter angles of approach
 
 ### Stage 3 Games Coursework
 
