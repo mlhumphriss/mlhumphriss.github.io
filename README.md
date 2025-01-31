@@ -36,6 +36,7 @@
 - The area I worked on was the player character and their inputs as well as making it possible to select certain objects in the game using the mouse, and have the system know an object has been selected.
 - This was done with a mixture of c++ for the class, camera turn controls and event triggers, then a blueprint and actor components for the selection system.
 ![SelectBlueprint](docs/assets/selectBlueprint.png)
+- Note: Opening image in new tab allows you to see this blueprint easier
 ![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
