@@ -13,20 +13,20 @@
 - If I was to revisit this project, I would try and fix the post processing as had a bug where it would render one colour across whole screen as well as adjust the water to not be as reflective
 - [Github Repository](https://github.com/mlhumphriss/CSC8502-OpenGLGraphicDemo)
 
-### C++ Physics and Ai Project
+### C++ Physics and AI Project
 {% include GraphicsYoutube.html id="DAe-hkx5NWY" %}
 - This project was made using CMake and explored the creation of collision detection and resolution methods as well as creating state machine AI for a game.
-- There is a state machine enemy in the maze which moves towards the player when they are in the maze, but run directly towards a player when in line of sight. This uses raycasts towards the player, and if it hits them first it'll change to chase mode.
+- There is a state machine enemy in the maze which moves towards the player using pathfinding on a navmesh when they are in the maze, but run directly towards a player when in line of sight. This uses raycasts towards the player, and if it hits the player before a wall it'll change to chase mode.
 - One slight issue with the game in general is that the physics calculations with all the objects in is taking too long and causing time outs. This results in causing the floating staircase to vibrate due to the physics calculations not being accurate enough for movement to dampen.
 - If I was to come back to this I would probably add a physics object management system so that if an object is on a floor with no forces applied to it other than gravity, the system collision detection would assume the previous collision resolution are consistent until it moves or has an external force applied,
 - This should then reduce the wasted processing time and hopefully allow the game to run more efficiently.
 - [Github Repository](https://github.com/mlhumphriss/CSC8503-NetworkCodebase)
 #### OBB to OBB collisions using Separating Axis Theorem
 ![OBBGif](docs/assets/OBBCubesRocking.gif)
-- One feature of the physics engine is an implementation of Separating Axis Theorem to work out collisions betweenv two OBB objects. This is done by projecting both onto a series of axis to check if they overlap, then using the axis which does with the least penetration to get a collision point for collision resolution.
+- One feature of the physics engine is an implementation of Separating Axis Theorem to work out collisions between two OBB objects. This is done by projecting both onto a series of axis to check if they overlap, then using the axis which does with the least penetration to get a collision point for collision resolution.
 - This method wasn't a perfect solution as after a collision, the cubes take a while to settle with them rocking on the corners
 - Another issue during development was that if the objects were significantly different sizes (e.g. floor and a box) it would fling them apart
-- Upon further testing I realised this occurred only when the floor was the position of Object A, so added a check that would swap any object with tag floor to Object B before the function
+- Upon further testing I realised this occurred only when the floor was the first object in collision pair, so added a check that would swap any object with tag floor to second object before the function call
 - Though fixing the issue inside the function would have been more ideal as would make the physics more consistent, I was under time constraint so settled on this method to fix it
 - [Function Code can be seen here](https://gist.github.com/mlhumphriss/8d80fcba81a2cb78762e527afbab33c9)
 
@@ -36,7 +36,7 @@
 - The area I worked on was the player character and their inputs as well as making it possible to select certain objects in the game using the mouse, and have the system know an object has been selected.
 - This was done with a mixture of c++ for the class, camera turn controls and event triggers, then a blueprint and actor components for the selection system.
 ![SelectBlueprint](docs/assets/selectBlueprint.png)
-- Note: Opening image in new tab allows you to see this blueprint easier
+- Note: Opening image in new tab allows you to see this blueprint for mouse click selection of actors easier
 ![ExplosiveUnboxingSpin](docs/assets/SITDSpin2.gif)
 - [Github Repository of Game](https://github.com/AlfieOnGit/ExplosiveUnboxing)
 
@@ -60,4 +60,7 @@
 - If I was to rework it I would add the additional functionality of a reverse gear to allow the model to be able to achieve a higher success rate of parking at tighter angles of approach
 
 ### Stage 3 Games Coursework
-
+- The focus of this coursework was creating a playable demo of a game with an emphasis on physics and enemy AI.
+- To meet this brief I decided to create a 3D platformer with the aim of it to reach the highest height possible, wih score being based on height. This was made in three days.
+- There are a dozen Navmesh navigation based AI "slimes" on the floor of the map. These are designed less to be a threat at the beginning, but more to be an additional punishment mechanic if the player falls.
+- If I was to go back to this project, I would add flying enemies with a set path, to add more complexity and risk of losing towards the end of the game as just becomes a jump puzzle.
