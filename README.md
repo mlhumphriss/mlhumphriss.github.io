@@ -60,6 +60,7 @@
 - If I was to rework it I would add the additional functionality of a reverse gear to allow the model to be able to achieve a higher success rate of parking at tighter angles of approach
 
 ### Stage 3 Games Coursework
+![StartAreaLookAtGame](docs/assets/3dPlatformerLookAround.gif)
 - The focus of this coursework was creating a playable demo of a game with an emphasis on physics and enemy AI.
 - To meet this brief I decided to create a 3D platformer with the aim of it to reach the highest height possible, wih score being based on height. This was made in three days.
 - There are a dozen Navmesh navigation based AI "slimes" on the floor of the map. These are designed less to be a threat at the beginning, but more to be an additional punishment mechanic if the player falls.
