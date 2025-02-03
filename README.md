@@ -58,7 +58,7 @@
 - It used raycasts of set lengths as sensors, then a basic state machine which would drive towards the target and use the sensors and the weighted values to determine steering corrections or to stop to prevent collision.
 - One fault of my system was that I didn't give it an option to reverse, which meant that if it had a wrong angle of approach, it couldn't readjust to make it into the space.
 - If I was to rework it I would add the additional functionality of a reverse gear to allow the model to be able to achieve a higher success rate of parking at tighter angles of approach.
--[Copy of AutonomousController file](https://gist.github.com/mlhumphriss/a240cb7b1e46bf7ac625264cd97a413f)
+- [Copy of AutonomousController file](https://gist.github.com/mlhumphriss/a240cb7b1e46bf7ac625264cd97a413f)
 
 ### Stage 3 Games Coursework
 ![StartAreaLookAtGame](docs/assets/3dPlatformerLookAround.gif)
