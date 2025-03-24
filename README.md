@@ -2,7 +2,7 @@
 
 ## C++ Projects
 - I started C++ programming in my final year of university and hve gathered experience from using it in a variety of courseworks and GameJams.
-<br>
+
 ### C++ Graphics Project
 {% include GraphicsYoutube.html id="77X5xG5DIFI" %}
 - This project was made with OpenGL used to allow it to render.
