@@ -52,7 +52,7 @@
 
 ## Unity Projects
 - I have experience with using Unity as it is the engine I started working with as an undergrad.
-<br>
+
 ### Dissertation on creating an Adaptable and Efficient Autonomous Parking System
 ![CarParking](docs/assets/DisertationGif1.gif)
 - My dissertation used Unity in order to model an autonomous parking system
